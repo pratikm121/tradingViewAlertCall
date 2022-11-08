@@ -1,0 +1,9 @@
+2022-11-08 19:49:25,374 INFO nl.trading.view.alert.TradingViewAlertCallApplication [restartedMain] Starting TradingViewAlertCallApplication using Java 16.0.2 on DESKTOP-3SF2C7Q with PID 15744 (G:\WORK\Coding\GitHubRepos\tradingViewAlertCall\target\classes started by Pratik in G:\WORK\Coding\GitHubRepos\tradingViewAlertCall)
+2022-11-08 19:49:25,375 INFO nl.trading.view.alert.TradingViewAlertCallApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-11-08 19:49:25,980 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2022-11-08 19:49:25,980 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-08 19:49:26,026 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-11-08 19:49:26,264 INFO nl.trading.view.alert.TradingViewAlertCallApplication [restartedMain] Started TradingViewAlertCallApplication in 1.127 seconds (JVM running for 1.558)
+2022-11-08 19:49:27,806 INFO nl.trading.view.alert.service.GmailService [scheduling-1] Subject = Alert: Alert received Tue Nov 08 19:30:02 CET 2022
+2022-11-08 19:49:27,807 INFO nl.trading.view.alert.service.GmailService [scheduling-1] calling
+2022-11-08 19:49:27,808 INFO nl.trading.view.alert.service.GmailService [scheduling-1] updatedLastChecked = 2022-11-08T19:30:02
