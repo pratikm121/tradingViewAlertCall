@@ -25,7 +25,7 @@ public class GmailService {
     private static final String USERNAME = "pratikm121@gmail.com";
     private static final String PASSWORD = "fepnqjzvdknhxxnf";
     private final TwilioService twilioService ;
-    private LocalDateTime lastChecked = LocalDateTime.now().minusHours(3);
+    private LocalDateTime lastChecked = LocalDateTime.now().minusHours(5);
 
     @Autowired
     GmailService(TwilioService twilioService){
@@ -65,7 +65,7 @@ public class GmailService {
                 Message message = messages.get(messages.size()-1);
                 String subject = message.getSubject();
                 Date receiveDate = message.getSentDate();
-                if(subject.equalsIgnoreCase("Alert: Alert".toLowerCase())){
+                if(subject.equalsIgnoreCase("Alert".toLowerCase())){
                     logger.info("Subject = {} received {}" ,subject , receiveDate);
                     logger.info("calling");
                     lastChecked = LocalDateTime.ofInstant(receiveDate.toInstant(),ZoneId.systemDefault());
