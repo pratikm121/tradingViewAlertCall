@@ -2,7 +2,6 @@ package nl.trading.view.alert.controller;
 
 import nl.trading.view.alert.model.AccountData;
 import nl.trading.view.alert.model.ActivePositionDetails;
-import nl.trading.view.alert.model.TickerInformation;
 import nl.trading.view.alert.model.TickerInformationDetails;
 import nl.trading.view.alert.service.KucoinService;
 import org.springframework.beans.factory.annotation.Autowired;
